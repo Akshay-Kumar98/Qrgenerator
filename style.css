@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: montserrat-semibold;
+    src: url(./fonts/Montserrat-SemiBold.woff);
+}
+
+.qrbox{
+    background: #B7C3F3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.qr-container{
+    width: 400px;
+    padding: 30px;
+    background: #EF476F;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.qr-container h2{
+    font-size: 30px;
+    color: #FFF;
+    font-family: montserrat-semibold;
+    text-align: center;
+}
+
+.qr-input{
+    width: 100%;
+    padding: 10px;
+    color: #073B4C;
+    font-size: 15px;
+    background: #FFF;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    font-family: montserrat-semibold;
+    font-weight:400;
+}
+
+.qr-submit{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 17px;
+    background: #06D6A0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    transition: all 0.5s;
+    font-family: montserrat-semibold;
+}
+
+.qr-submit:hover{
+    background: #118AB2;
+}
+
+.qr-image{
+    width: 100%;
+
+}
+
+@media only screen and (max-width:500.2px) {
+    .qr-container{
+        width: 300px;
+    }
+
+    .qr-container h2{
+        font-size: 23px;
+    }
+
+    .qr-submit{
+        font-size: 16px;
+    }
+}
+
